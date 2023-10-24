@@ -22,4 +22,4 @@ class AbstractModel(models.Model):
     objects = AbstractManager()
 
     class Meta:
-        abstract = True # Django will ignore the model and won't generate migrations
+        abstract = True  # Django will ignore the model and won't generate migrations
